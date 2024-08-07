@@ -2,7 +2,7 @@
 //Simple Monte Carlo Algorithm to estimate the values of sinx function.
 //It gives random numbers to x and y, then it compares y and sinx values.
 //After that it estimates the area for given numbers.
-//If you are using Linux sinx library gives error sometimes use "gcc monte1.c -o monte1 -lm" to compile and use "./monte1" to run.
+//If you are using Linux sinx library sometimes gives error,so use "gcc monte1.c -o monte1 -lm" to compile and use "./monte1" to run.
 
 #include <stdio.h>
 #include <stdlib.h>
